@@ -24,5 +24,6 @@ public class PhoneBook {
                 System.out.println("Not found");
             }
         }
+        input.close();
     }
 }

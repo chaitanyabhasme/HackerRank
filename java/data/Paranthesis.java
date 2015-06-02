@@ -12,6 +12,7 @@ public class Paranthesis {
 		while (input.hasNext()) {
 			list.add(input.next());
 		}
+		input.close();
 		for (String s : list) {
 			System.out.println(checkIfBalanced(s));
 		}
